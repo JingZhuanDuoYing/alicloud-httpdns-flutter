@@ -38,4 +38,13 @@ out/
 *.jks
 *.keystore
 *.hprof
-google-services.json
+
+# HarmonyOS
+.cxx/
+.preview/
+oh_modules/
+build/
+hvigor/
+*.har
+*.hap
+oh-package-lock.json5
