@@ -6,7 +6,7 @@ class AliyunHttpdns {
 
   /// 1) 初始化：使用 accountId/secretKey/aesSecretKey
   static Future<bool> init({
-    required int accountId,
+    required String accountId,
     String? secretKey,
     String? aesSecretKey,
   }) async {

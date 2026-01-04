@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "aliyun_httpdns",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

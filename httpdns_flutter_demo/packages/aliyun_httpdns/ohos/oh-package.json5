@@ -1,0 +1,11 @@
+{
+  "name": "aliyun_httpdns",
+  "version": "1.0.0",
+  "description": "Aliyun HTTPDNS Flutter plugin",
+  "main": "index.ets",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aliyun/httpdns": "^1.2.2"
+  }
+}

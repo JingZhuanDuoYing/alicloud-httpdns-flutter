@@ -1,0 +1,58 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/donglua/.ohos/config/default_ohos_EZrbSsVuCKvS5Xq5KTkhnn8vUx1EFBaUsEpMtgG9ojE=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A4C90CBD56286609DECB012EEC46C6FD6EF16E90F0B8D2F259DBA63ACC0D20A9E08D48942D790",
+          "profile": "/Users/donglua/.ohos/config/default_ohos_EZrbSsVuCKvS5Xq5KTkhnn8vUx1EFBaUsEpMtgG9ojE=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/donglua/.ohos/config/default_ohos_EZrbSsVuCKvS5Xq5KTkhnn8vUx1EFBaUsEpMtgG9ojE=.p12",
+          "storePassword": "0000001AC4AEE6E28A74D9F9B916D1A36E0D088CCA82E2D82CD95A654AD9875BD969DFED3EF58F667280"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "useNormalizedOHMUrl": true
+          }
+        },
+        "targetSdkVersion": "5.0.0(12)"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "profile"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default",
+          ]
+        },
+      ]
+    },
+  ]
+}
