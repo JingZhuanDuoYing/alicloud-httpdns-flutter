@@ -52,3 +52,4 @@ hvigor/
 *.har
 *.hap
 oh-package-lock.json5
+.hvigor/
